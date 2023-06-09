@@ -1,0 +1,37 @@
+# Change database URL depending on SQL DATABASE you use, by default uses sqlite
+# take in account that the connections are asyncronous, install the apropiate
+# async library to the corresponding database
+
+# Replace de data in the url to the correct values
+
+# SQLite: async aiosqlite
+DATABASE_URL=sqlite+aiosqlite:///database.db
+
+# PostgreSQL: async aiopg
+#DATABASE_URL=postgresql+aiopg://user:password@localhost/database
+
+# MySQL: async aiomysql
+#DATABASE_URL=mysql+aiomysql://user:password@localhost/database
+
+# MongoDB: async motor
+#DATABASE_URL=mongodb+motor://user:password@localhost/database
+
+# Redis: async aioredis
+#DATABASE_URL=redis+aioredis://localhost/0
+
+# Memcached: async aiomcache
+#DATABASE_URL=memcached+aiomcache://localhost/0
+
+# Elasticsearch: async aioes
+#DATABASE_URL=elasticsearch+aioes://localhost:9200/database
+
+# Cassandra: async aiocassandra
+#DATABASE_URL=cassandra+aiocassandra://localhost/database
+
+# Oracle: async aiooracle
+#DATABASE_URL=oracle+aiooracle://user:password@localhost/database
+
+# Firebird: async aiosqlite
+#DATABASE_URL=firebird+aiosqlite:///database.db
+
+

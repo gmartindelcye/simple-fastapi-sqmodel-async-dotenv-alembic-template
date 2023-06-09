@@ -1,0 +1,19 @@
+
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Your Name", email = "yourname@example.com"},
+]
+dependencies = [
+    "fastapi>=0.96.0",
+    "sqlmodel>=0.0.8",
+    "alembic>=1.11.1",
+    "uvicorn>=0.22.0",
+    "python-dotenv>=1.0.0",
+    "asyncio>=3.4.3",
+    "aiosqlite>=0.19.0",
+]
+requires-python = ">=3.9"
+license = {text = "MIT"}
